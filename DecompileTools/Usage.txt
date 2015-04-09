@@ -1,0 +1,8 @@
+1) APKTool : could only decompile the apk file to get resouce files, not java source code
+  command : apktool d XXXXX.apk
+2) dex2jar-0.0.9.15
+	a. change XXX.apk to XXX.zip and un-zip it
+	b. get the classes.dex
+	c. use this tool to convert dex to jar
+3)jd-gui:
+    open jar file directly to view the java source code
